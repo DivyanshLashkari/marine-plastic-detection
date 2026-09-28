@@ -1,0 +1,43 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyd
+
+# Testing & Coverage
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Virtual Environments
+.venv/
+venv/
+env/
+ENV/
+
+# Datasets (large binary images - recreate via scripts)
+datasets/trash_ICRA19/
+datasets/augmented/
+datasets/merged/
+datasets/souvik_yolo/
+*.cache
+*.zip
+*.tar.gz
+
+# Ultralytics training runs & checkpoint logs
+runs/
+*.log
+
+# Generated test outputs (keep directories via .gitkeep)
+outputs/challenge_sets/
+outputs/detections/*
+!outputs/detections/.gitkeep
+outputs/comparisons/*
+!outputs/comparisons/.gitkeep
+
+# Operating System & IDEs
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini

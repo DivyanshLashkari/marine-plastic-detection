@@ -1,0 +1,10 @@
+# Unified Marine Plastic Detection Dataset (ICRA19 + SOUVIK)
+path: C:/Users/chara/.gemini/antigravity-ide/scratch/marine_plastic_detection/datasets/merged
+train: images/train
+val: images/val
+
+nc: 3
+names:
+  0: plastic
+  1: bio
+  2: rov
